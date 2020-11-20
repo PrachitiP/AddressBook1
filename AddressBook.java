@@ -18,11 +18,7 @@ public class AddressBook
 	                numOfContact++;
 
 	    }
-	    public int contactsCount()
-	    {
-            return numOfContact;
-}
-
+	   
 	    public static void menu()
 	    {
             System.out.println("1.Add a new contact to your address book.");
