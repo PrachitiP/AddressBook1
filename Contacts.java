@@ -11,18 +11,7 @@ public class Contacts
 	    private long phonenumber; 
 	    private long zip;  
 	    
-	    public Contacts(String fname, String lname, String add, String city, String state, long phonenumber, long zip) 
-	    {
-	        this.fname=fname;
-	        this.lname=lname;
-	        this.add=add;
-	        this.city=city;
-	        this.state=state;
-	        this.phonenumber=phonenumber;
-	        this.zip=zip;
-	    }
-
-	     public String getfName() {
+	    public String getfName() {
 	                return fname;
 	    }
 
