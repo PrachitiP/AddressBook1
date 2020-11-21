@@ -112,7 +112,7 @@ public class AddressBook
                  cont.printcontacts();
 	         }
  
-	         else if (choice >=4) 
+	         else if (choice >4) 
 	         {
                  System.out.println("Sorry, that was an invalid menu choice, try again.");
 	         }
