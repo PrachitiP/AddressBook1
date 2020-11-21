@@ -22,11 +22,11 @@ public class AddressBook
 	    {
             for (int i=0;i<numOfContact;i++)
             names[i].printcontact();
-        }
+       	    }
 	    public int contactsCount()
 	    {
             return numOfContact;
-        }
+            }
 	    private int havecontact(String fn, String ln)
 	    {
 
@@ -48,7 +48,7 @@ public class AddressBook
             }
             else
                     System.out.println("Contact Not Present.");
-	     }
+	    }
 
 	    public static void menu()
 	    {
