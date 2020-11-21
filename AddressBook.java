@@ -21,7 +21,7 @@ public class AddressBook
 	   
 	    public static void menu()
 	    {
-            System.out.println("1.Add a new contact to your address book.");
+            System.out.println("Add a new contact to your address book.");
 	    }
 	    public static void main(String[] args) 
 	    {
